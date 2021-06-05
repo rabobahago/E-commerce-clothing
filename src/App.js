@@ -2,6 +2,7 @@ import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import HomePage from "./pages/homepage/homepage.jsx";
 import ShopPage from "./pages/shop/shop.jsx";
+import "./App.css";
 
 function App() {
   return (
