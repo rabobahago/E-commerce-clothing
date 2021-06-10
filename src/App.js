@@ -4,7 +4,7 @@ import HomePage from "./pages/homepage/homepage.jsx";
 import ShopPage from "./pages/shop/shop.jsx";
 import Header from "./components/header/header.jsx";
 import { connect } from "react-redux";
-import setCurrentUser from "./redux/user/user.action.jsx";
+import setCurrentUser from "./redux/user/user.actions.jsx";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in -and-sign-up";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import "./App.css";
